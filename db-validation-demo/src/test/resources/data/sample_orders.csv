@@ -1,0 +1,6 @@
+order_id,customer,amount,status
+ORD-1001,John Doe,250,NEW
+ORD-1002,Jane Smith,320,NEW
+ORD-1003,Acme Corp,500,PROCESSING
+ORD-1004,Widget Co,120,NEW
+ORD-1005,Test User,210,NEW
