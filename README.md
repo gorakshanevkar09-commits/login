@@ -69,3 +69,21 @@ To use the pipeline:
 1. Push this repository to GitHub.
 2. Ensure `.github/workflows/maven.yml` exists.
 3. GitHub Actions will automatically trigger on your next push.
+
+## Playwright Pipeline
+
+A Playwright workflow is included in `.github/workflows/playwright.yml`.
+
+This workflow:
+
+- runs on `push` and `pull_request` targeting `main`
+- checks out the repository
+- sets up Node.js 20 using `actions/setup-node`
+- installs dependencies and Playwright browsers in `flipkart-playwright-demo`
+- runs `npm test`
+
+To use the Playwright pipeline:
+
+1. Push this repository to GitHub.
+2. Ensure `.github/workflows/playwright.yml` exists.
+3. GitHub Actions will automatically trigger on your next push.
